@@ -33,15 +33,15 @@ struct ImagenesApiView: View {
                     }
                 }
                 
-                .task {
-                    do {
-                        try await PhotoVM.getPhotosData()
-                    } catch {
-                        print("error1")
-                    }
-                }
-                
             }.navigationTitle("Imagenes NASA Api")
+        }
+        
+        .task {
+            do {
+                try await PhotoVM.getPhotosData()
+            } catch {
+                print("error1")
+            }
         }
         
     }
