@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		D0CE70FA28ECB97B00E63988 /* AppNasaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CE70F928ECB97B00E63988 /* AppNasaApp.swift */; };
-		D0CE70FC28ECB97B00E63988 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CE70FB28ECB97B00E63988 /* ContentView.swift */; };
+		D0CE70FC28ECB97B00E63988 /* ImagenesApiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CE70FB28ECB97B00E63988 /* ImagenesApiView.swift */; };
 		D0CE70FE28ECB97D00E63988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CE70FD28ECB97D00E63988 /* Assets.xcassets */; };
 		D0CE710128ECB97D00E63988 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CE710028ECB97D00E63988 /* Preview Assets.xcassets */; };
+		D0CE710828ECBA0000E63988 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CE710728ECB9FF00E63988 /* PhotoModel.swift */; };
+		D0CE710A28ECBBE600E63988 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CE710928ECBBE600E63988 /* PhotoViewModel.swift */; };
+		D0EC4A7128F7222400F3A9DE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EC4A7028F7222400F3A9DE /* MainView.swift */; };
+		D0EC4A7328F726F200F3A9DE /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EC4A7228F726F200F3A9DE /* PerfilView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D0CE70F628ECB97B00E63988 /* AppNasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppNasa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CE70F928ECB97B00E63988 /* AppNasaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNasaApp.swift; sourceTree = "<group>"; };
-		D0CE70FB28ECB97B00E63988 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0CE70FB28ECB97B00E63988 /* ImagenesApiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenesApiView.swift; sourceTree = "<group>"; };
 		D0CE70FD28ECB97D00E63988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0CE710028ECB97D00E63988 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0CE710728ECB9FF00E63988 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		D0CE710928ECBBE600E63988 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		D0EC4A7028F7222400F3A9DE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D0EC4A7228F726F200F3A9DE /* PerfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				D0CE70F928ECB97B00E63988 /* AppNasaApp.swift */,
-				D0CE70FB28ECB97B00E63988 /* ContentView.swift */,
+				D0CE70FB28ECB97B00E63988 /* ImagenesApiView.swift */,
+				D0EC4A7028F7222400F3A9DE /* MainView.swift */,
+				D0CE710728ECB9FF00E63988 /* PhotoModel.swift */,
+				D0CE710928ECBBE600E63988 /* PhotoViewModel.swift */,
+				D0EC4A7228F726F200F3A9DE /* PerfilView.swift */,
 				D0CE70FD28ECB97D00E63988 /* Assets.xcassets */,
 				D0CE70FF28ECB97D00E63988 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0CE70FC28ECB97B00E63988 /* ContentView.swift in Sources */,
+				D0CE710828ECBA0000E63988 /* PhotoModel.swift in Sources */,
+				D0CE710A28ECBBE600E63988 /* PhotoViewModel.swift in Sources */,
+				D0CE70FC28ECB97B00E63988 /* ImagenesApiView.swift in Sources */,
+				D0EC4A7128F7222400F3A9DE /* MainView.swift in Sources */,
+				D0EC4A7328F726F200F3A9DE /* PerfilView.swift in Sources */,
 				D0CE70FA28ECB97B00E63988 /* AppNasaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
